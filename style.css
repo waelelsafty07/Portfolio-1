@@ -493,6 +493,25 @@ button:active {
   margin-bottom: 2.5%;
 }
 
+/* Detail popup */
+.detail-popup {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.popup-container {
+  width: 91.47%;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+}
+
+.detail-item1 {
+  background-image: url(Assets/detailTop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 @media (min-width: 768px) {
   body {
     background-image: url("Assets/Headline-llustration-desktop.svg");
